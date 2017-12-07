@@ -5,10 +5,10 @@ package com.example.operam.collegeapp;
  */
 
 public class Guardian {
-
+// Step 31 implemented in lines 9-10 below
     String firstName;
     String lastName;
-
+// Step 32 implemented in lines 12-27 below
     public String getFirstName() {
         return firstName;
     }
