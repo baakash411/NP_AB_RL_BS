@@ -27,6 +27,7 @@ public class ApplicantActivity extends AppCompatActivity
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
+        // Step 18 implemented in lines 31 - 36 below
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
@@ -81,6 +82,7 @@ public class ApplicantActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        // Step 25 implemented in line 91 below
         Fragment contentFragment = null;
 
         if (id == R.id.family_member) {
@@ -88,6 +90,7 @@ public class ApplicantActivity extends AppCompatActivity
         }
         else if (id == R.id.profile){
             contentFragment = new ProfileFragment();
+            // Step 16 implemented in lines 86-90
         }
          // Step 29 implemented in lines 93-97 below
         if (contentFragment != null) {
