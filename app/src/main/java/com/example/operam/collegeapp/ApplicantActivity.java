@@ -89,7 +89,7 @@ public class ApplicantActivity extends AppCompatActivity
         else if (id == R.id.profile){
             contentFragment = new ProfileFragment();
         }
-
+         // Step 29 implemented in lines 93-97 below
         if (contentFragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, contentFragment);
